@@ -1,0 +1,58 @@
+[
+	{
+		"key": 1,
+		"name": "Mercure",
+		"image": "https://cdn.pixabay.com/photo/2020/09/08/23/58/mercury-5556108_1280.jpg",
+		"type": "téllurique",
+		"prix": 30,
+		"températureMax": 427
+	},
+	{
+		"key": 2,
+		"name": "Venus",
+		"image": "https://cdn.pixabay.com/photo/2020/09/08/23/58/venus-5556107_1280.jpg",
+		"type": "téllurique",
+		"prix": 60,
+		"températureMax": 470
+	},
+	{
+		"key": 3,
+		"name": "Mars",
+		"image": "https://cdn.pixabay.com/photo/2021/01/17/02/01/planet-5923800_1280.jpg",
+		"type": "téllurique",
+		"prix": 25,
+		"températureMax": 20
+	},
+	{
+		"key": 4,
+		"name": "Juptiter",
+		"image": "https://cdn.pixabay.com/photo/2021/10/14/12/02/jupiter-6708922_1280.jpg",
+		"type": "géante gazeuze",
+		"prix": 600,
+		"températureMax": -148
+	},
+	{
+		"key": 5,
+		"name": "Saturne",
+		"image": "https://cdn.pixabay.com/photo/2022/12/28/16/52/saturn-7683367_1280.jpg",
+		"type": "géante gazeuze",
+		"prix": 900,
+		"températureMax": -113
+	},
+	{
+		"key": 6,
+		"name": "Uranus",
+		"image": "https://cdn.pixabay.com/photo/2020/09/13/19/22/uranus-5569168_1280.jpg",
+		"type": "géante de glace",
+		"prix": 700,
+		"températureMax": -220
+	},
+	{
+		"key": 8,
+		"name": "Neptune",
+		"image": "https://cdn.pixabay.com/photo/2021/10/25/14/02/neptune-6741029_1280.png",
+		"type": "géante de glace",
+		"prix": 700,
+		"températureMax": -200
+	}
+]
