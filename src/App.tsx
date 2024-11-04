@@ -5,7 +5,7 @@ import data from "./assets/data/planetes.json";
 
 import { useState } from "react";
 import PlanetProduct from "./components/PlanetProduct";
-import FilterPlanet from "./components/filterPlanet";
+import FilterPlanet from "./components/FilterPlanet";
 import PlanetDetails from "./components/PlanetDetails";
 
 function App() {
@@ -17,8 +17,11 @@ function App() {
 
 	return (
 		<>
-			<header>
-				<nav>
+			<header className="bg-slate-900  text-yellow-100 mb-3">
+				<h1 className="font-[header] text-center text-5xl py-5 border-5 border-black ">
+					Buy A Planet
+				</h1>
+				<nav className="font-[header] flex justify-between px-4 py-4">
 					<FilterPlanet
 						planetsList={planetsList}
 						setPlanetCard={setPlanetCard}

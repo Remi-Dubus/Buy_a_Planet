@@ -19,7 +19,6 @@ export default function FilterPlanet({
 
 	return (
 		<>
-			<h2>Filtres</h2>
 			<button type="button" onClick={handleClickTellurique}>
 				Planete téllurique
 			</button>

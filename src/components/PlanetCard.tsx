@@ -6,7 +6,7 @@ export default function planetCard({
 	return (
 		<figure>
 			<img src={image} alt={`Planète ${name}`} />
-			<figcaption>Planète ${name}</figcaption>
+			<figcaption>Planète {name}</figcaption>
 			<p>
 				Le prix de {name} est de {prix} millions de crédits galactique
 			</p>
