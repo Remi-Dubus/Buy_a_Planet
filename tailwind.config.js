@@ -4,7 +4,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				header: ["Francois One", "sans-serif"],
+				header: ["Montserrat", "sans-serif"],
+				main: ["Ubuntu", "serif"],
 			},
 		},
 	},

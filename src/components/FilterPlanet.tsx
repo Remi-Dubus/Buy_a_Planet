@@ -19,13 +19,25 @@ export default function FilterPlanet({
 
 	return (
 		<>
-			<button type="button" onClick={handleClickTellurique}>
+			<button
+				type="button"
+				onClick={handleClickTellurique}
+				className="border-2 border-yellow-100 rounded-lg p-1"
+			>
 				Planete téllurique
 			</button>
-			<button type="button" onClick={handleClickGaz}>
+			<button
+				type="button"
+				onClick={handleClickGaz}
+				className="border-2 border-yellow-100 rounded-lg p-1"
+			>
 				Géante gazeuse
 			</button>
-			<button type="button" onClick={handleClickGlace}>
+			<button
+				type="button"
+				onClick={handleClickGlace}
+				className="border-2 border-yellow-100 rounded-lg p-1"
+			>
 				Géante de glace
 			</button>
 		</>

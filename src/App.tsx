@@ -17,18 +17,18 @@ function App() {
 
 	return (
 		<>
-			<header className="bg-slate-900  text-yellow-100 mb-3">
-				<h1 className="font-[header] text-center text-5xl py-5 border-5 border-black ">
+			<header className="bg-slate-900  text-yellow-100">
+				<h1 className="font-header text-center text-5xl py-5 border-5 border-black ">
 					Buy A Planet
 				</h1>
-				<nav className="font-[header] flex justify-between px-4 py-4">
+				<nav className="font-main flex justify-between px-4 py-4">
 					<FilterPlanet
 						planetsList={planetsList}
 						setPlanetCard={setPlanetCard}
 					/>
 				</nav>
 			</header>
-			<main>
+			<main className="bg-slate-400 py-5 flex">
 				<PlanetProduct
 					planets={planetCard}
 					setPlanetIndex={setPlanetIndex}
