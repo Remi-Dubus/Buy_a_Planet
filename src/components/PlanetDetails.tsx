@@ -9,14 +9,14 @@ export default function PlanetDetails({
 			<h1 className="my-5 font-header text-3xl text-yellow-100 text-center">
 				Détails:
 			</h1>
-			<figure className="flex flex-col items-center">
+			<figure className="flex flex-col items-center ">
 				<figcaption className="my-3 font-main text-2xl text-yellow-100">
 					{planets[planetIndex].name}
 				</figcaption>
 				<img
 					src={planets[planetIndex].image}
 					alt={`Planète ${planets[planetIndex].name}`}
-					className="w-auto h-auto px-2 rounded-lg shadow-xl"
+					className="w-auto h-auto rounded-lg shadow-xl p-2"
 				/>
 				<div className="bg-slate-900 rounded-lg p-4 m-2 text-yellow-100 font-main text-lg shadow-xl">
 					<p>

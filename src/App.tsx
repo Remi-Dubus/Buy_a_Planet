@@ -4,6 +4,7 @@ import type { planetType } from "./lib/definitions";
 import data from "./assets/data/planetes.json";
 
 import { useState } from "react";
+import logo from "./assets/data/images/logo.png";
 import PlanetProduct from "./components/PlanetProduct";
 import FilterPlanet from "./components/FilterPlanet";
 import PlanetDetails from "./components/PlanetDetails";
@@ -19,10 +20,11 @@ function App() {
 	return (
 		<>
 			<header className="bg-slate-900  text-yellow-100 sticky top-0 z-10">
-				<h1 className="font-header text-center text-5xl py-5 border-5 border-black ">
+				<img src={logo} alt="logo" className="w-20 inline sm:w-40" />
+				<h1 className="font-header text-center text-4xl py-5 border-5 border-black inline sm:text-5xl">
 					Buy A Planet
 				</h1>
-				<nav className="font-main flex justify-between px-4 py-4 gap-2">
+				<nav className="font-main flex justify-between px-4 py-1 gap-2 border-b-2 border-yellow-100">
 					<FilterPlanet
 						planetsList={planetsList}
 						setPlanetCard={setPlanetCard}

@@ -13,14 +13,14 @@ export default function PlanetProduct({
 }) {
 	useState(planetIndex);
 	return (
-		<article className=" bg-slate-600 rounded-xl grid grid-cols-2 shadow-xl">
-			<h2 className="col-span-2 my-5 text-center text-3xl font-header text-yellow-100">
+		<article className=" bg-slate-600 rounded-xl grid grid-cols-1 shadow-xl h-fit sm:grid-cols-3 sm:w-11/12">
+			<h2 className="col-span-1 my-5 text-center text-3xl font-header text-yellow-100 sm:col-span-3">
 				Liste des planètes à vendre
 			</h2>
 			{planets.map((p, i) => (
 				<section
 					key={p.key}
-					className="flex flex-col items-center mx-3 bg-slate-900 mb-3 rounded-lg shadow-xl"
+					className="flex flex-col items-center mx-10 bg-slate-900 mb-3 rounded-lg shadow-xl sm:m-2"
 				>
 					<PlanetCard key={p.key} name={p.name} image={p.image} prix={p.prix} />
 					<button
