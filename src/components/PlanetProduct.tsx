@@ -12,6 +12,11 @@ export default function PlanetProduct({
 	setPlanetIndex: (arg0: number) => void;
 }) {
 	useState(planetIndex);
+
+	const setPanetAndScroll = (e: number) => {
+		setPlanetIndex(e);
+		window.scrollTo({ top: 0, behavior: "smooth" });
+	};
 	return (
 		<article className=" bg-slate-600 rounded-xl grid grid-cols-1 shadow-xl h-fit sm:grid-cols-3 sm:w-11/12">
 			<h2 className="col-span-1 my-5 text-center text-3xl font-header text-yellow-100 sm:col-span-3">
@@ -25,7 +30,7 @@ export default function PlanetProduct({
 					<PlanetCard key={p.key} name={p.name} image={p.image} prix={p.prix} />
 					<button
 						type="button"
-						onClick={() => setPlanetIndex(i)}
+						onClick={() => setPanetAndScroll(i)}
 						key={p.key}
 						className="border-yellow-100 border-2 rounded-lg text-yellow-100 p-0.5 block mx-1 mt-8 mb-4 font-main text-lg hover:scale-105 hover:bg-slate-800 "
 					>
