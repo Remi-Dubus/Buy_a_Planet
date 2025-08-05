@@ -1,3 +1,30 @@
-Project Build a planet
+# Buy A Planet
+---
 
-Bienvenue chez Buy A Planet, votre passerelle vers la propriété planétaire ! Nous vous offrons la chance unique d’acquérir des planètes, soigneusement sélectionnées pour leur potentiel. Avec un engagement envers la durabilité et des pratiques éthiques, nous garantissons une exploration responsable. En investissant, vous rejoignez une communauté d’innovateurs et bénéficiez d’un potentiel de retour sur investissement. Êtes-vous prêt à faire partie de l’avenir intergalactique ?
+## <ins>Version française</ins>
+
+Buy A Planet est un site de vente fictive de planètes du système solaire, développé dans le cadre de ma formation. Il s’agit de mon premier projet avec React, conçu pour m’initier à la logique des composants dynamiques.
+
+Ce projet m’a permis de:
+ - Découvrir la structure d’un projet React simple
+ - Découvrir la gestion d'états avec "useState"
+ - Création d’une interface responsive et interactive
+
+🔗**Site en ligne** : [Accéder au site](https://buy-a-planet-project.vercel.app/) 
+🧾**Portfolio personnel** : [Voir mon portfolio](https://www.remi-dubus.fr)
+
+
+
+
+## <ins>English Version</ins>
+
+Buy A Planet is a fictional solar system planet shop, developed as part of my training.
+It’s my first project using React, created to help me learn the basics of dynamic component architecture.
+
+This project allowed me to:
+ - Explore the structure of a basic React project
+ - Explore state management using "useState"
+ - Creating a responsive UI and interactive interface
+
+🔗**Live site** : [Visit the website](https://buy-a-planet-project.vercel.app/) 
+🧾**Personal portfolio**: [View my portfolio](https://www.remi-dubus.fr)
