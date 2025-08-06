@@ -8,7 +8,7 @@ export default function planetCard({
 			<img
 				src={image}
 				alt={`Planète ${name}`}
-				className="w-auto h-auto mx-auto rounded-lg"
+				className="w-full h-auto max-h-[50%] mx-auto rounded-lg "
 			/>
 			<figcaption className="text-center font-head text-yellow-100 text-2xl my-2">
 				{name}
